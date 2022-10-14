@@ -1,0 +1,143 @@
+
+#person1{
+	
+    margin-left: 12%;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 33%;
+}
+
+.mb-1{
+	margin-bottom:1rem!important;
+}
+
+
+
+
+#elipse1{
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 1300px;
+}
+.input_wrap #project_description1{
+	margin-top: 1px;
+	margin-left: 1px;
+	height: 80px;
+	width: 575px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.1em;
+	background: #FBFBFB;
+	border: 1px solid #D5D8DE;
+	border-radius: 4px;
+} 
+
+.mb-1{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.1em;
+
+
+}
+
+.form_wrap{
+	margin-top: 7px;
+}
+
+.form_wrap .input_wrap{
+	margin-bottom: 0.5px;
+}
+
+.form_wrap .input_wrap:last-child{
+	margin-bottom: 0;
+}
+
+.form_wrap .input_wrap label{
+	display: block;
+	margin-bottom: 3px;
+	color: black;
+	margin-left: 1px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.1em;
+
+
+}
+
+.form_wrap .input_grp{
+	display: flex;
+	margin-left: 8px;
+	justify-content: space-between;
+}
+
+.form_wrap .input_grp  input[type="text"]{
+	width: 280px;
+	background: #FBFBFB;
+	border: 1px solid #D5D8DE;
+	border-radius: 4px;
+}
+
+.form_wrap  input[type="text"]{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #9597a6;
+	padding: 10px;
+	outline: none;
+}
+
+.form_wrap  input[type="text"]:focus{
+	border-color: #ebd0ce;
+}
+
+.form_wrap ul{
+	background: #fff;
+	padding: 8px 10px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+}
+
+.form_wrap ul li:first-child{
+	margin-right: 15px;
+}
+
+.form_wrap ul .radio_wrap{
+	position: relative;
+	margin-bottom: 0;
+}
+
+.form_wrap ul .radio_wrap .input_radio{
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.form_wrap ul .radio_wrap span{
+	display: inline-block;
+	font-size: 14px;
+	padding: 3px 20px;
+	border-radius: 3px;
+	color: #545871;
+}
+
+.form_wrap .input_radio:checked ~ span{
+	background: #ebd0ce;
+}
+
+.form_wrap .submit_btn{
+    margin-top: 20px;
+    width: 585px;
+	background: #3B5998;
+    color: white;
+	padding: 10px;
+	border: 0;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+.form_wrap .submit_btn:hover{
+	background: #4B45AF ;
+    color: white;
+}
+
+/**/
